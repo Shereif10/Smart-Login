@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    <header class="d-flex justify-content-center align-items-center" id="signUp">
+        <div class="container pb-5 w-50 mx-auto">
+            <div class="row px-5 text-center">
+                <div class="col-md-12">
+                    <h1 class="mt-5 pb-5">Smart Login System</h1>
+                    <input id="userName" oninput="validateUserName()" type="text" placeholder="Enter your name" name="name" class="w-100 my-3 form-control">
+                    <input id="email" oninput="validateEmail()" type="email" placeholder="Enter your email" name="email" class="w-100 my-3 form-control">
+                    <input id="password" oninput="validatePassword()" type="password" placeholder="Enter password" name="password" class="w-100 my-3 form-control">
+                    <p id="message" class="p-0 m-0 fw-bold"></p>
+                    <button id="signUp" onclick="createAccount()" class="btn btn-outline-info my-4 w-100">Sign Up</button>
+                    <p>You have an account? <a href="index.html" id="goSignIn" class="fw-bolder"> Sign In</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

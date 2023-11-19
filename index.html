@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header class="d-flex justify-content-center align-items-center" id="signIn">
+        <div class="container pb-5 w-50 mx-auto">
+            <div class="row px-5 text-center">
+                <div class="col-md-12">
+                    <h1 class="mt-5 pb-5">Smart Login System</h1>
+                    <input id="loginEmail" type="email" placeholder="Enter your email" name="email" class="w-100 my-3 form-control">
+                    <input id="loginPassword" type="password" placeholder="Enter your password" name="password" class="w-100 my-3 form-control">
+                    <p id="loginMessage" class="fw-bold"></p>
+                    <button id="loginBtn" onclick="login()" class="btn btn-outline-info my-4 w-100">Login</button>
+                    <p>Don't have an account ?<a id="goSignUp" href="signup.html" class="fw-bolder"> Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

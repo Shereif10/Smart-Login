@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../images/pexels-felix-mittermeier-956999.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+h1{
+    color: white;
+}
+input,
+button{
+    background-color: transparent !important;
+}
+::placeholder{
+    color: white !important;
+}
+
+.container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header p{
+    color: white;
+}
+.btn{
+    color: white !important;
+}
+
+.form-control{
+    color: white !important;
+}
+
+/* #message,
+#message2,
+#loginMessage{
+    color: red;
+} */
